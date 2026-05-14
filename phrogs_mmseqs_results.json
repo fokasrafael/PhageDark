@@ -1,0 +1,8 @@
+{
+  "method": "PHROGs-MMseqs2-profile",
+  "macro_f1": 0.45553292209921864,
+  "accuracy": 0.5261121856866537,
+  "coverage": 0.7707930367504836,
+  "n_proteins": 1034,
+  "n_annotated": 797
+}
