@@ -1,0 +1,7 @@
+{
+  "method": "PHROGs-MMseqs2-trainonly",
+  "macro_f1": 0.19629770945765054,
+  "coverage": 0.2885913287619459,
+  "accuracy": 0.19869337508773824,
+  "n": 18521
+}
