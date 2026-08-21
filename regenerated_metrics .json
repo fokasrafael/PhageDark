@@ -1,0 +1,51 @@
+{
+  "esm2_f1": 0.6536,
+  "esm2_acc": 0.7001,
+  "blast_f1": 0.415,
+  "esm2_ci": [
+    0.6478,
+    0.6593
+  ],
+  "diff_ci": [
+    0.2316,
+    0.2456
+  ],
+  "p_value": 0.0,
+  "table3": [
+    {
+      "bin": "No hit (no training homolog)",
+      "n": 17344,
+      "accuracy": 0.63,
+      "macro_f1": 0.592,
+      "mean_conf": 0.893
+    },
+    {
+      "bin": "1\u201330% identity",
+      "n": 2897,
+      "accuracy": 0.754,
+      "macro_f1": 0.591,
+      "mean_conf": 0.926
+    },
+    {
+      "bin": "30\u201350% identity",
+      "n": 7823,
+      "accuracy": 0.782,
+      "macro_f1": 0.686,
+      "mean_conf": 0.936
+    },
+    {
+      "bin": "50\u201370% identity",
+      "n": 2827,
+      "accuracy": 0.774,
+      "macro_f1": 0.7,
+      "mean_conf": 0.92
+    },
+    {
+      "bin": "\u226570% identity (homologs)",
+      "n": 3397,
+      "accuracy": 0.764,
+      "macro_f1": 0.703,
+      "mean_conf": 0.93
+    }
+  ]
+}

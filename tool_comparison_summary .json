@@ -1,0 +1,29 @@
+{
+  "comparison_subsample_n": 4999,
+  "esm2_650m": {
+    "f1": 0.6558,
+    "coverage": 1.0
+  },
+  "phold_full_optimistic": {
+    "f1": 0.5234,
+    "coverage": 0.938,
+    "self_phrog_matches": 0.947
+  },
+  "phold_fident_below_0.95": {
+    "f1": 0.2341,
+    "coverage": 0.337
+  },
+  "empathi_best": {
+    "f1": 0.4801,
+    "coverage": 0.899,
+    "threshold": 0.9
+  },
+  "empathi_conf_sweep": {
+    "0.3": 0.4761,
+    "0.5": 0.4785,
+    "0.7": 0.4787,
+    "0.9": 0.4801,
+    "0.95": 0.4788
+  },
+  "notes": "Empathi/Phold use different category schemes; comparison approximate. Phold DB contains PHROGs (near-identical matches)."
+}
