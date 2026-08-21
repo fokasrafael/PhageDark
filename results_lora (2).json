@@ -1,0 +1,100 @@
+{
+  "method": "ESM-2 (650M) + LoRA + MLP",
+  "lora_config": {
+    "r": 16,
+    "alpha": 32,
+    "target": [
+      "query",
+      "key",
+      "value"
+    ]
+  },
+  "training": {
+    "samples": 27500,
+    "epochs": 2,
+    "val_f1_subsample": 0.7567723467522495
+  },
+  "test_accuracy": 0.659239384041064,
+  "test_macro_f1": 0.6412306104242899,
+  "classification_report": {
+    "auxiliary_metabolic_gene": {
+      "precision": 0.3835956917978459,
+      "recall": 0.4788004136504654,
+      "f1-score": 0.42594296228150874,
+      "support": 967.0
+    },
+    "dna_replication_recombination": {
+      "precision": 0.7861818181818182,
+      "recall": 0.6805162102612528,
+      "f1-score": 0.72954277037287,
+      "support": 6354.0
+    },
+    "host_interaction_modulation": {
+      "precision": 0.9006666666666666,
+      "recall": 0.8982712765957447,
+      "f1-score": 0.8994673768308922,
+      "support": 1504.0
+    },
+    "integration_excision": {
+      "precision": 0.8203650336215178,
+      "recall": 0.46564885496183206,
+      "f1-score": 0.5940869565217392,
+      "support": 1834.0
+    },
+    "lysis": {
+      "precision": 0.449046483909416,
+      "recall": 0.6140994295028525,
+      "f1-score": 0.5187607573149742,
+      "support": 2454.0
+    },
+    "other_known_function": {
+      "precision": 0.47380675203725264,
+      "recall": 0.6806020066889632,
+      "f1-score": 0.5586822237474263,
+      "support": 4186.0
+    },
+    "packaging_terminase": {
+      "precision": 0.7959927140255009,
+      "recall": 0.732606873428332,
+      "f1-score": 0.76298559580969,
+      "support": 1193.0
+    },
+    "structural_head_capsid": {
+      "precision": 0.860415682569674,
+      "recall": 0.7316730267121913,
+      "f1-score": 0.7908390318028872,
+      "support": 4979.0
+    },
+    "structural_other": {
+      "precision": 0.22766036336670376,
+      "recall": 0.4521354933726068,
+      "f1-score": 0.3028360049321825,
+      "support": 1358.0
+    },
+    "structural_tail_fiber_baseplate": {
+      "precision": 0.8262432594367884,
+      "recall": 0.5903253424657534,
+      "f1-score": 0.6886392009987515,
+      "support": 7008.0
+    },
+    "transcription_regulation": {
+      "precision": 0.7544592030360532,
+      "recall": 0.8110975112199102,
+      "f1-score": 0.7817538340542666,
+      "support": 2451.0
+    },
+    "accuracy": 0.659239384041064,
+    "macro avg": {
+      "precision": 0.6616757880590216,
+      "recall": 0.6487069489872641,
+      "f1-score": 0.6412306104242899,
+      "support": 34288.0
+    },
+    "weighted avg": {
+      "precision": 0.7143340998057384,
+      "recall": 0.659239384041064,
+      "f1-score": 0.673780375795011,
+      "support": 34288.0
+    }
+  }
+}
