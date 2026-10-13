@@ -1,0 +1,17 @@
+{
+  "esm2_150m": {
+    "test_f1": 0.6652320126175175,
+    "test_acc": 0.703861409239384,
+    "val_f1": 0.7123480972137307,
+    "emb_dim": 640,
+    "params": "150M"
+  },
+  "esm2_650m": {
+    "emb_dim": 1280,
+    "params": "650M",
+    "test_f1_original_run": 0.6601428742092573,
+    "test_f1": 0.6536
+  },
+  "difference": 0.0116,
+  "note": "test_f1 for esm2_650m is the value regenerated from the released checkpoint (best_classifier_v2.pt) and is the value reported in the manuscript; test_f1_original_run is the figure from the initial training run, retained for transparency. difference = esm2_150m.test_f1 - esm2_650m.test_f1."
+}
